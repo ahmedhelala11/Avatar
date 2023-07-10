@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.containerr{
+    width: 100%;
+    height:700px;
+    background-image: linear-gradient(to right ,  #3b3b7083 ,#000000a2),url("Avatar\ _\ Wētā\ FX.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.containerr:hover{
+    background-image: linear-gradient(to top ,#3b3b7083 30%,transparent),url("تنزيل.webp");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+}
+.lists{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.avatar{
+    transition: all 0.4s ease-in;
+}
+.avatar:hover{
+transform: rotate(360deg);
+}
+.avatar a{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.avatar a:hover{
+    color: rgb(255, 145, 0);
+}
+
+.lists ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 30%;
+height: 100%;
+}
+
+.lists ul li a{
+color: rgb(255, 255, 255);
+font-size: 16px;
+
+}
+.lists ul li a:hover{
+    color: rgb(255, 145, 0);
+    }
+#active{
+    color: rgb(255, 145, 0);
+    font-size: 20px;
+}
+.text{
+    text-transform: capitalize;
+    height: 300px;
+    width: 90%;
+    height: 500px;
+    display: flex;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text button{
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgb(255, 145, 0);
+    background-color: rgb(82, 72, 126);
+    margin-left: 50px;
+    box-shadow: 0px 0px 5px 0px rgb(160, 147, 180);
+    transition: all 0.5s ease-in;
+}
+.text button:hover{
+color: rebeccapurple;
+background-color: white;
+box-shadow: 0px 0px 0px 0px rgb(117, 111, 129);
+transform: scale(1.2);
+}
+
+.myclass img{
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.myyclass {
+    position: relative;
+}
+
+.myyclass a{
+    margin-top: 20px;
+position: absolute;
+left: 40%;
+padding: 10px;
+color: rgb(255, 145, 0);
+}
+ span{
+    color: rgb(255, 145, 0);
+}
+.sadsdsa{
+    background-image: linear-gradient(to right, #4ca2af56, #2c3e5071),url("ppp6666.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain , 100% 100%;
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.sadssa h1{
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sadssa p{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.sadssa h2{
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.sadssa a{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    left: 40%;
+    color: rgb(255, 145, 0);
+}
+.ioiofidd{
+    background-image:linear-gradient(to right, #4ca2af56, #2c3e5071),url("ppppppp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain , 100% 100%;
+width: 100%;
+height: 100vh;
+position: relative;
+margin-bottom: 100px;
+}
+.ioiofidd h1{
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ioiofidd p{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.ioiofidd h2{
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.ioiofidd a{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    left: 40%;
+    color: rgb(255, 145, 0);
+}
+
+.ccard{
+width: 100%;
+height: 600px;
+margin-top: 300px;
+
+}
+.cccard{
+    width: 30%;
+    height: 100%;
+}
+.cccard img{
+    width: 100%;
+    height: 280px;
+}
+.cccard p{
+    font-size: 17px;
+    color: white ;
+    transition: all 0.4s ease-in;
+}
+.cccard p:hover{
+    transform: scale(1.1);
+}
+.cccard h1{
+    color: white ;
+}
+.fuu{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cccard a{
+    text-decoration: none;
+
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
+.sdsasasa{
+    margin-top: 200px !important;
+}
+.sasa{
+
+    display: flex;
+    justify-content: center;
+}
+.dfddsdsdsfds{
+
+}
+
+
+.fa-heart{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.fa-share-nodes{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.fa-download{
+    color: white;
+    font-size: 20px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.footer{
+    width: 100%;
+    height: 650px;
+    margin-top: 200px;
+}
+.footer .counteinar{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.counteinar .emd1{
+    width: 180px;
+    height: 100%;
+}
+
+.emd1 h1{
+font-size: 34px;
+height: 55px;
+color: rgb(255, 145, 0);
+}
+.emd1 p{
+    font-size: 19px;
+}
+.emd1 p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* emd2 */
+.counteinar .emd2{
+    width: 160px;
+    height: 80%;
+    margin-top: 73px;
+}
+.emd2 p{
+    font-size: 19px;
+}
+
+.emd2 p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* //////emd3 */
+.counteinar .emd3{
+    width: 160px;
+    height: 80%;
+    margin-top: 73px;
+}
+.emd3 p{
+    font-size: 19px;
+}
+
+.emd3 p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* ////emd3 */
+.counteinar .emd4{
+    width: 250px;
+    height: 100%;
+}
+.emd4 h1{
+    width: 100%;
+    height: 65px;
+    color: rgb(255, 145, 0);
+
+}
+.emd4 img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.emd4 h2{
+    height: 40px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.emd4 p{
+    font-size: 17px;
+    color: white;
+}
+.counteinar .emd5{
+    width: 350px;
+    height: 100%;
+}
+.emd5 .roww{
+    width: 100%;
+    height: 65px;
+    color: rgb(255, 145, 0);
+
+}
+.emd5 .row1{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.row1 .fa-solid{
+font-size: 30px;
+color: rgb(255, 145, 0);
+width: 50px;
+height: 50px;
+}
+.row1 h1{
+    font-size:20px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+
+}
+.emd5 .row2{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.row2 .fa-phone{
+    font-size: 30px;
+    color: rgb(255, 145, 0);
+    width: 50px;
+    height: 50px;
+}
+.row2 h1{
+    font-size:20px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.emd5 .row3{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.row3 .fa-solid{
+    font-size: 30px;
+    color: rgb(255, 145, 0);
+    width: 50px;
+    height: 50px;
+}
+.row3 h1{
+    font-size:20px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+/* ////// counteinar2*/
+.footer .counteinar2{
+    width: 100%;
+    height: 100px;
+}
+.counteinar2 .final{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative ;
+}
+.final h1{
+    position: absolute;
+    right: 237px;
+    color: rgb(255, 255, 255);
+
+}
+.counteinar2 .final2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.final2 input{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    right: 70px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.final2 button{
+    width: 90px;
+    height: 92%;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    position: absolute;
+    right: 72px;
+}
+
+/* ////////// counteinar3 */
+.footer .counteinar3{
+    width: 100%;
+    height: 160px;
+}
+.counteinar3 h1{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: rgb(255, 255, 255);
+}
